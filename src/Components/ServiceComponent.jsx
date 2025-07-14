@@ -2,9 +2,6 @@ import React, { useState } from 'react'
 
 const ServiceComponent = (props) => {
 
-  const [newColor, setNewColor] = useState(0)
-
-
   return (
     <div>
       <div className='h-full px-2 w-full bg-gray-200 border border-gray-500 rounded-sm'>

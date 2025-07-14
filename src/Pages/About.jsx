@@ -4,6 +4,7 @@ import AboutHome from '../Components/AboutHome'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 import Footer from '../Components/Footer'
+import Banner2 from '/Banner2.avif'
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
 
         <div className='flex w-full h-full'>
             <div className='w-1/2 '>
-                <img className='w-full h-full object-cover' src="/Banner2.avif" alt="" />
+                <img className='w-full h-full object-cover' src={Banner2} alt="" />
             </div>
 
             <div className='text-lg p-4 w-full flex flex-col h-full'>

@@ -6,13 +6,16 @@ import ImageSlider from '../Components/ImageSlider'
 import AboutHome from '../Components/AboutHome'
 import Footer from '../Components/Footer'
 import IndepthServices from '../Components/IndepthServices'
+import Banner1 from '/Banner1.avif'
+import Banner2 from '/Banner2.avif'
+import Banner3 from '/Banner3.avif'
 
 const Home = () => {
 
   const IMAGES = [
-     '/Banner1.avif',
-    '/Banner2.avif',
-    '/Banner3.avif'
+     Banner1,
+     Banner2,
+     Banner3
   ]
 
   return (

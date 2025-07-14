@@ -10,10 +10,10 @@ import About from './Pages/About.jsx'
 import Notfound from './Pages/Notfound.jsx'
 
 const router = createBrowserRouter([
-  {path: '/', element: <Home />,errorElement: <Notfound />,},
-  {path: '/contacts', element: <Contacts />, errorElement: <Notfound />,},
-  {path: '/about', element: <About />, errorElement: <Notfound />,},
-  {path: '/services', element: <Services />, errorElement: <Notfound />,},
+  {path: '/rontec-web/', element: <Home />,errorElement: <Notfound />,},
+  {path: '/rontec-web/contacts', element: <Contacts />, errorElement: <Notfound />,},
+  {path: '/rontec-web/about', element: <About />, errorElement: <Notfound />,},
+  {path: '/rontec-web/services', element: <Services />, errorElement: <Notfound />,},
 ])
 
 createRoot(document.getElementById('root')).render(

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Rontec2 from '/rontec2.png'
 
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
         
         <div>
           <Link to={'/'}>
-            <img src="/rontec2.png" alt="rontec" className='h-7 cursor-pointer transition-all'/>
+            <img src={Rontec2} alt="rontec" className='h-7 cursor-pointer transition-all'/>
           </Link>
         </div>
        

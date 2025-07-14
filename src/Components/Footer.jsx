@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { IoIosCall, IoLogoWhatsapp } from 'react-icons/io'
 import { MdMailOutline } from 'react-icons/md'
+import Banner1 from '/Banner1.avif'
 
 const Footer = () => {
   return (
     <div className='h-75 w-full mb-2 relative'>
-        <img className='h-full w-full object-cover' src="/Banner1.avif" alt="" />  
+        <img className='h-full w-full object-cover' src={Banner1} alt="" />  
         <div className='bg-red-500/70 h-full w-full absolute top-0'>
 
           <div className='w-full flex h-full py-5 px-10 gap-10'>
