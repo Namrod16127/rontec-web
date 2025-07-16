@@ -11,7 +11,7 @@ const About = () => {
     <div className=' bg-gray-100 h-screen'>
       <Header />
       
-      <div className='mt-10 p-2 bg-gray-100'>
+      <div className='mt-10 p-2 bg-gray-200'>
         
         <div className='md:h-60 lg:h-60 h-110 w-full bg-gray-200 mt-4 rounded-lg flex flex-col gap-5'>
         
@@ -46,7 +46,7 @@ const About = () => {
 
         </div>
 
-        <div className='flex md:h-60 lg:h-60 h-55 w-full bg-white/60 p-2 rounded-lg'>
+        <div className='flex md:h-60 lg:h-60 h-55 w-full bg-gray-300 mt-10 p-2 rounded-lg'>
           <div>
             <div className='flex justify-center items-center py-2'>
               <p className='md:text-xl lg:text-xl text-sm font-bold'>Our History</p>
@@ -61,7 +61,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className='flex h-60 w-full bg-gray-200 p-2 rounded-lg'>
+        <div className='flex h-60 w-full bg-gray-200 p-2 rounded-lg mt-10'>
           <div>
             <div className='flex justify-center items-center py-2'>
               <p className='md:text-xl lg:text-xl text-sm font-bold'>Our Values</p>
