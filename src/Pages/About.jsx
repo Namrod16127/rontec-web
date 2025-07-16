@@ -11,7 +11,7 @@ const About = () => {
     <div className=' bg-gray-100 h-screen'>
       <Header />
       
-      <div className='mt-10 p-2 bg-white'>
+      <div className='mt-10 p-2 bg-gray-100'>
         
         <div className='md:h-60 lg:h-60 h-110 w-full bg-gray-200 mt-4 rounded-lg flex flex-col gap-5'>
         
