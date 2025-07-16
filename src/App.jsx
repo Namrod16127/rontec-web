@@ -17,8 +17,3 @@ function App() {
 }
 
 export default App
-
- // "predeploy": "npm run build",
-    // "deploy": "gh-pages -d dist"
-
-    // "homepage": "https://Namrod16127.github.io/rontec-web/",

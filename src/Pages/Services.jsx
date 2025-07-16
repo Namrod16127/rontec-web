@@ -10,11 +10,11 @@ const Services = () => {
       <Header />
       <div className='px-2 py-3 mt-9 h-[1400px]'>
         <div className='p-4 bg-gray-100 h-full'>
-          <div className='bg-gray-200 h-50 flex flex-col rounded-lg'>
+          <div className='bg-gray-200 h-65 flex flex-col rounded-lg'>
             <div className='flex justify-center py-4'>
-              <p className='text-xl font-bold'>Introduction to our Services</p>
+              <p className='md:text-xl lg:text-xl text-sm font-bold'>Introduction to our Services</p>
             </div>
-            <div className='text-lg px-4'>
+            <div className='md:text-lg lg:text-lg text-sm px-4'>
               We mainly provide phone repair, computer repair and web development services to our various customers.
               We provide other services for other electronics but the above three are our main services.
               We have provided these services for many years and we are very confident in our employee's
@@ -23,7 +23,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className='mt-20'>
+          <div className='md:mt-20 lg:mt-20 mt-10'>
             <ServicesComponent />
           </div>
 
