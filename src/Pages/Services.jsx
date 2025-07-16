@@ -10,7 +10,7 @@ const Services = () => {
       <Header />
       <div className='px-2 py-3 mt-9 h-[1400px]'>
         <div className='p-4 bg-gray-100 h-full'>
-          <div className='bg-gray-200 h-65 flex flex-col rounded-lg'>
+          <div className='bg-gray-200 h-60 md:h-40 lg:h-40 flex flex-col rounded-lg'>
             <div className='flex justify-center py-4'>
               <p className='md:text-xl lg:text-xl text-sm font-bold'>Introduction to our Services</p>
             </div>
@@ -23,11 +23,11 @@ const Services = () => {
             </div>
           </div>
 
-          <div className='md:mt-20 lg:mt-20 mt-10'>
+          <div className='mt-10'>
             <ServicesComponent />
           </div>
 
-          <div className='mt-20'>
+          <div className='md:mt-10 lg:mt-10 mt-20'>
             <IndepthServices />
           </div>
         </div>

@@ -28,7 +28,7 @@ const services = [
 const ServicesComponent = () => {
    
   return (
-    <div className='flex flex-col md:flex-row lg:flex-row h-70 w-full justify-between gap-3'>
+    <div className='flex flex-col md:flex-row lg:flex-row h-70 w-full items-center justify-between gap-3'>
         {
             services.map((service) => (
                 <ServiceComponent name={service.name} description={service.description} Icon={service.Icon} color={service.color} />

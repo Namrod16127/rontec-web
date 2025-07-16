@@ -17,6 +17,7 @@ const Home = () => {
      Banner2,
      Banner3
   ]
+  
 
   return (
     <div>
