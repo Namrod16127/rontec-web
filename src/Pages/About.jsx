@@ -17,7 +17,7 @@ const About = () => {
         
 
         <div className='md:flex lg:flex w-full h-full'>
-            <div className='w-full h-1/2'>
+            <div className='w-full h-1/2 md:h-full lg:h-full'>
                 <img className='w-full h-full object-cover' src={Banner2} alt="" />
             </div>
 
@@ -66,7 +66,7 @@ const About = () => {
             <div className='flex justify-center items-center py-2'>
               <p className='md:text-xl lg:text-xl text-sm font-bold'>Our Values</p>
             </div>
-            <div className='md:text-lg text-sm'>
+            <div className='md:text-lg lg:text-lg text-sm'>
               Here at Rontec we value integrity, reliability, work-ethic, professionalism and 
               continuous improvement of our services to ensure that we provide the best
               and most time efficient services for our customers and suppliers of our 
