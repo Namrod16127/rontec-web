@@ -24,7 +24,7 @@ const Header = () => {
         </div>
        
 
-        <div className='flex text-white'>
+        <div className='flex text-white justify-center w-full md:w-80 lg:w-80'>
         
           <div className='px-2 border-r border-gray-200 hover:bg-gray-200/40 hover:rounded-lg transition-all  md:text-lg lg:text-lg text-sm'>
             <Link to={'/'}>
